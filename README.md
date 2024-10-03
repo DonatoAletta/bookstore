@@ -30,6 +30,3 @@ Book: id, title, author, genre, price, stock
 Cart: id, user_id, total_price
 CartItem: id, cart_id, book_id, quantity
 Order: id, user_id, order_date, total_price
-OrderItem: id, order_id, book_id, quantity
-Wishlist: id, user_id
-WishlistItem: id, wishlist_id, book_id
